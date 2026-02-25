@@ -1,24 +1,14 @@
-# Field filter
-  
-TODO: Supply a short overview of the functionality the extension brings to Aha! Develop
-This [Aha! Develop](https://www.aha.io/develop/overview) extension enables...
+# Field Filter
 
-It provides these contributions:
+An [Aha! Develop](https://www.aha.io/develop/overview) extension that adds a filter textbox to record drawer headers, allowing you to quickly find fields by name.
 
-TODO: Add a contribution list here. These should briefly describe each of the features provided by this extension.
-
-## Demo
-
-TODO: Add a short .gif screen recording showing some of the highlights of your extension. This can be recorded using a tool like [LICECap](https://www.cockos.com/licecap/).
-
-![demo](demo.gif)
+When a drawer is open, a "Filter fields..." input appears in the header row. Typing into it hides any attribute rows whose names don't match the query. The description field is also filterable. Clearing the input restores all fields.
 
 ## Installing the extension
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
 
-TODO: Fill in a link to your built extension package
-Install the Field filter extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=).
+Install the extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=) (update the URL after publishing).
 
 ## Working on the extension
 
@@ -30,9 +20,8 @@ npm install -g aha-cli
 
 Clone the repo:
 
-TODO: Add the repository URL here
 ```sh
-git clone ...
+git clone https://github.com/jemmyw/aha-develop-field-filter.git
 ```
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
